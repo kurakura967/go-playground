@@ -1,0 +1,27 @@
+{
+  "took": 0,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "eq"
+    },
+    "max_score": 1.0,
+    "hits": [
+      {
+        "_index": "hoge-index",
+        "_id": "hoge",
+        "_score": 1.0,
+        "_source": {
+          "keyword": "test_keyword"
+        }
+      }
+    ]
+  }
+}
